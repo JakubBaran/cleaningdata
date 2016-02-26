@@ -1,0 +1,35 @@
+---
+title: "Getting and Cleaning Data Course Project"
+output: html_document
+---
+Instructions
+---
+The purpose of this project is to demonstrate an ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
+
+Data Source
+---
+This dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Data Files
+---
+- test/X_test.txt: Test set.
+- test/y_test.txt: Test labels.
+- train/X_train.txt: Training set.
+- train/y_train.txt: Training labels.
+- features.txt: List of all features.
+- features_info.txt: includes information about varaibles from the feature vector.
+
+Variables
+---
+- Subject: the integrer subject ID
+- Activity: (Walking, Walking Upstairs,Walking Downstairs, Sitting, Standing, Laying)
+
+Transformations
+---
+- Firstly data sets are loaded.
+- Appropriate column naming is performed.
+- Selecting columns for which the mean and standard deviation is availlible.
+- Activity labels are loaded.
+- Training and Test data sets are merged.
+- Reshaping and creation of tidy data sets is done.
+- Tidy data set is written into a file.

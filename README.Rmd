@@ -1,0 +1,21 @@
+---
+title: "Getting and Cleaning Data Course  Project"
+output: html_document
+---
+
+Prerequisite
+---
+- Require *data.table* and *reshape2* librareis.
+- Data is downloaded (tested on Windows and in Rstudio), however do not unpack it. This will require input from the user and may differ for different operating systems.
+- The UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
+
+run_analysis.R does the following
+---
+- Firstly data sets are loaded.
+- Appropriate column naming is performed.
+- Selecting columns for which the mean and standard deviation is availlible.
+- Training and Test data sets are merged.
+- Reshaping and create a tidy data set.
+- Tidy data set is written into a file.
+
+The end result is shown in the file tidy.cvs
