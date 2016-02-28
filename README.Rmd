@@ -6,7 +6,7 @@ output: html_document
 Prerequisite
 ---
 - Require *data.table* and *reshape2* librareis.
-- Data is downloaded (tested on Windows and in Rstudio), however do not unpack it. This will require input from the user and may differ for different operating systems.
+- Data is downloaded (tested on Windows and in Rstudio), however is not unpacked. This will require input from the user and may differ for different operating systems.
 - The UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
 
 run_analysis.R does the following

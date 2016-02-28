@@ -80,5 +80,7 @@ tidy<-melt(full_set,id=c("subject", "Activity_ID", "Activity_Label"),measure.var
 
 # saving tidy data
 
-write.csv(tidy, "tidy.csv", row.names=FALSE)
+write.table(tidy, file="./tidy.txt", row.names=FALSE)
+
+#write.csv(tidy, "tidy.csv", row.names=FALSE)
 
